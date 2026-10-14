@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <!-- Connect the CSS file (must be in the same folder) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="frame">
+
+    <!-- Navbar -->
+    <header class="navbar">
+      <a href="#" class="logo">
+        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <rect x="2" y="2" width="28" height="28" rx="8" fill="#00ff5e"/>
+          <path d="M12 9h4a7 7 0 0 1 0 14h-4V9z" fill="#16363a"/>
+        </svg>
+        Your Logo
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+      </ul>
+
+      <div class="actions">
+        <button class="btn btn-outline">Log in</button>
+        <button class="btn btn-fill">Sign up</button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero" id="home">
+        <span class="badge">New: version 2.0 is here</span>
+        <h1>Build something <span>amazing</span> today</h1>
+        <p>A clean, modern starting point for your website. Replace this text with your own message.</p>
+        <div class="hero-buttons">
+          <button class="btn btn-fill btn-large">Get started</button>
+          <button class="btn btn-outline btn-large">Learn more</button>
+        </div>
+      </section>
+
+      <!-- Feature cards -->
+      <section class="features" id="features">
+        <article class="card">
+          <div class="icon">⚡</div>
+          <h3>Fast</h3>
+          <p>Lightweight code that loads quickly on any device.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🎨</div>
+          <h3>Beautiful</h3>
+          <p>A dark theme with neon green accents that stands out.</p>
+        </article>
+        <article class="card">
+          <div class="icon">📱</div>
+          <h3>Responsive</h3>
+          <p>Looks great on phones, tablets and desktops.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer" id="pricing">
+      © 2026 Your Company. All rights reserved.
+    </footer>
+
+    <!-- Presented by -->
+    <div class="presented">
+      presented by
+      <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <path d="M4 26L14 6l6 12" stroke="#1f6feb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M14 26l6-12 8 12" stroke="#111" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+  </div>
+</body>
+</html>
